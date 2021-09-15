@@ -1,0 +1,115 @@
+.themed{
+    text-align: center;
+    font-size: 25px;
+    
+   
+}
+
+.form{
+    font-size: 18px;
+    padding: 5px ;
+    margin-left: 10px;
+    
+}
+
+#billing{
+    font-size: 70px;
+    margin-top: 30px;
+    margin-bottom: 80px;
+    color:forestgreen;
+    margin-left: 70px;
+    
+}
+
+#login{
+    font-size: 45px;
+    color:darkslateblue;
+    margin-bottom: 20px;
+}
+
+
+
+.button{
+    margin-right: 20px;
+    font-size: 18px;
+    
+}
+
+.navigation{
+    
+    
+    margin-left:20px;
+    font-size: 20px;
+    color:white;
+    margin-bottom: 20px;
+    
+}
+
+.errors{
+    font-size: 16px;
+    color:rgb(226, 2, 47);
+    margin-left: 25px;
+}
+
+.trigger{
+    padding: 0 24px;
+  font-size: 18px;
+  line-height: 64px;
+  cursor: pointer;
+  transition: color 0.3s;
+  float:left
+}
+
+.site_layout .site_layout_background {
+    background: #fff;
+  }
+
+  .trigger:hover {
+    color: #1890ff;
+  }
+
+  .logo {
+    height: 15px;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .layout{
+      margin-top: 20px;
+      margin-left:5px;
+  }
+
+  .billing {
+      height:100%;
+      width:100%
+  }
+
+  .paginationBttns {
+    width: 120%;
+    height: 20px;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .paginationBttns a {
+    padding: 5px;
+    margin: 8px;
+    border-radius: 2px;
+    border: 1px solid #d37c42;
+    color: #323380;
+    cursor: pointer;
+  }
+  
+  .paginationBttns a:hover {
+    color: rgb(255, 255, 255);
+    background-color: #b2b4f5;
+  }
+  
+  .paginationActive a {
+    color: white;
+    background-color: #bdbee9;
+  }
+  
+  .paginationDisabled a {
+    color: grey;
+    background-color: grey;
+  }
